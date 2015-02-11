@@ -6,6 +6,9 @@
 //  Copyright (c) 2015 Mark Christenson. All rights reserved.
 //
 
+//TODO: Make redView spin when screen is being touched
+//TODO: Smooth out movement of redView
+
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -36,9 +39,6 @@
     CGPoint touchPoint = [myTouch locationInView:self.view];
     
     redView.center = touchPoint;
-    
-    //TODO: Make redView spin when screen is being touched
-    //TODO: Smooth out movement of redView
 }
 
 @end
